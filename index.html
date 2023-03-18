@@ -1,120 +1,144 @@
-<html
+<html>
 
 
             
 <head>
 <title>school website</title>
 <style>
-.imge{
-width:120px;
-position:relative;
-left:530px;
-top:-190px;
-}
-.first{
+.body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+		}
 
-border:1px red solid;
-height:290px;
-width:1400px;
-background-color:maroon;
-background-image:url('red.png');
+		.first {
+			border: 1px red solid;
+			height: 290px;
+			width: 100%;
+			background-color: maroon;
+			background-image: url('red.png');
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
 
+		.imge {
+			width: 120px;
+			margin: 0 20px;
+		}
 
+		.logo {
+			width: 150px;
+			margin: 0 20px;
+		}
 
-}
-.navigation{
-width:1300px;
-height:105px;
-line-height:75px;
-padding:0px 100px;	
-border:1px red solid;
-width:1200px;
-background-color:maroon;
+		.stu {
+			width: 250px;
+			margin: 0 20px;
+		}
 
+		.heading {
+			font-size: 40px;
+			color: aqua;
+			flex: 1 100%;
+			text-align: center;
+			margin: 10px 0;
+		}
 
+		.zir {
+			font-size: 40px;
+			color: blue;
+			flex: 1 100%;
+			text-align: center;
+			margin: 10px 0;
+		}
 
-}
-.navigation ul{
-float:right;
+		.kup {
+			font-size: 40px;
+			color: red;
+			flex: 1 100%;
+			text-align: center;
+			margin: 10px 0;
+		}
 
+		.navigation {
+			height: 75px;
+			padding: 0 20px;
+			background-color: maroon;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
 
+		.navigation ul {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			list-style: none;
+		}
 
+		.navigation li {
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			list-style: none;
+		}
 
-}
-.navigation li{
-display:inline-block;
-list-style:none;
+		.navigation li a {
+			font-size: 18px;
+			text-transform: uppercase;
+			padding: 0 20px;
+			color: #fff;
+			text-decoration: none;
+			transition: all 0.4s;
+		}
 
+		.navigation li a:hover {
+			color: aqua;
+		}
 
-}
-.navigation li a{
-font-size:18px;
-text-transform:uppercase;
-padding:0px 70px;
-color:blaCK;
-text-decoration:none;
+		.building {
+			width: 100%;
+			height: auto;
+			max-width: 100%;
+			display: block;
+			margin: 20px auto;
+		}
 
+		.school {
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
 
+		.text {
+			font-size: 18px;
+			color: maroon;
+			margin: 20px 0;
+		}
 
-}
-.navigation li a:hover{
-color:aqua;
-transition:all 0.4s;
+		@media screen and (min-width: 768px) {
+			.first {
+				height: 350px;
+			}
 
-}
+			.imge {
+				margin: 0 50px;
+			}
 
+			.logo {
+				margin: 0 50px;
+			}
 
-.kup{
-position:relative;
-left:680px;
-top:-45;
-color:red;
-font-size:40px;
-}
-.ZIR{
-position:relative;
-left:300;
-top:25;
-color:blue;
-font-size:40px;
-}
-.heading{
-position:relative;
-left:240px;
-color:aqua;
-font-size:40px;
+			.stu {
+				margin: 0 50px;
+			}
 
-
-
-}
-
-.logo{
-position:relative;
-width:150px;
-top:-200;
-right:90px;
-
-}
-.stu{
-position:relative;
-width:250px;
-left:750px;
-top:-165px;
-
-
-}
-.building{
-position:relative;
-top:1px;
-height:600px;
-width:1400px;
-}
-.text{
-font-size:25px;
-color:maroon;
-
-
-}
+			.heading {
+				flex: 1;
+				font-size: 50px
 
 
 
